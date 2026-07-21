@@ -13,4 +13,5 @@ class Solution(object):
             prefix=temp
             if prefix=="":
                 return ""
-        return prefix                    
+        return prefix   
+

@@ -12,6 +12,28 @@ class Solution(object):
         for j in range (0,n//2):
             k.append(r[j])
             k.append(p[j])
-        return k      
+        return k 
+//here time complexicity is 0(n+n/2)
+
+
+
+
+// in time complexicity of o(n)
+class Solution(object):
+    def rearrangeArray(self, nums):
+        n=len(nums)
+        r=[0]*n
+        p=0
+        q=1
+        for i in nums:
+            if i>=0:
+                r[p]=i
+                p+=2
+            else:
+                r[q]=i
+                q+=2
+        return r    
+
+
 
         

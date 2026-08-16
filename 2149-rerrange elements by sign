@@ -1,0 +1,17 @@
+class Solution(object):
+    def rearrangeArray(self, nums):
+        n=len(nums)
+        r=[]
+        p=[]
+        k=[]
+        for i in nums:
+            if i>=0:
+                r.append(i)
+            else:
+                p.append(i) 
+        for j in range (0,n//2):
+            k.append(r[j])
+            k.append(p[j])
+        return k      
+
+        

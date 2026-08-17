@@ -13,12 +13,12 @@ class Solution(object):
             k.append(r[j])
             k.append(p[j])
         return k 
-//here time complexicity is 0(n+n/2)
+#here time complexicity is 0(n+n/2)
 
 
 
 
-// in time complexicity of o(n)
+# in time complexicity of o(n)
 class Solution(object):
     def rearrangeArray(self, nums):
         n=len(nums)

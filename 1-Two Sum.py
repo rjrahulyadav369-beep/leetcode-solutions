@@ -8,3 +8,4 @@ class Solution(object):
                 return [hash_map[remaining], i]
             hash_map[nums[i]] = i
             
+            

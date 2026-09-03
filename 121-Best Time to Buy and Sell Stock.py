@@ -7,5 +7,6 @@ class Solution(object):
             mini_prices=min(prices[i],mini_prices)
             max_profit=max(max_profit,prices[i]-mini_prices)
         return max_profit    
-        
+
+
 
